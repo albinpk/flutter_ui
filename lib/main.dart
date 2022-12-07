@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_ui/core/slide_page_route.dart';
-import 'package:flutter_ui/features/animated_list_app/animated_list_app.dart';
-import 'package:flutter_ui/features/delicious_food_app/delicious_food_app.dart';
+
+import 'core/slide_page_route.dart';
+import 'features/animated_list_app/animated_list_app.dart';
+import 'features/animated_navbar_app/animated_navbar_app.dart';
+import 'features/delicious_food_app/delicious_food_app.dart';
 
 void main() {
   runApp(const MyApp());
@@ -29,6 +31,7 @@ class MyHomePage extends StatelessWidget {
   static const List<UiApp> _uiWidgets = [
     UiApp('Animated List', AnimatedListApp()),
     UiApp('Delicious Food', DeliciousFoodApp()),
+    UiApp('Animated Navbar', AnimatedNavbarApp()),
   ];
 
   @override
