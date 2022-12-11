@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'core/slide_page_route.dart';
 import 'features/animated_list_app/animated_list_app.dart';
 import 'features/animated_navbar_app/animated_navbar_app.dart';
+import 'features/camera_app/camera_app.dart';
 import 'features/delicious_food_app/delicious_food_app.dart';
 
 void main() {
@@ -32,6 +33,7 @@ class MyHomePage extends StatelessWidget {
     UiApp('Animated List', AnimatedListApp()),
     UiApp('Delicious Food', DeliciousFoodApp()),
     UiApp('Animated Navbar', AnimatedNavbarApp()),
+    UiApp('Camera App', CameraApp()),
   ];
 
   @override
